@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306A1D9027DFDE66008D90F4 /* PageControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A1D8F27DFDE66008D90F4 /* PageControler.swift */; };
 		30EAE02127DFB4FA00BD1F73 /* MEPIX_NEWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */; };
 		30EAE02327DFB4FA00BD1F73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE02227DFB4FA00BD1F73 /* ContentView.swift */; };
 		30EAE02527DFB52900BD1F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAE02427DFB52900BD1F73 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		306A1D8F27DFDE66008D90F4 /* PageControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControler.swift; sourceTree = "<group>"; };
 		30EAE01D27DFB4FA00BD1F73 /* MEPIX_NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEPIX_NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEPIX_NEWApp.swift; sourceTree = "<group>"; };
 		30EAE02227DFB4FA00BD1F73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */,
 				30EAE02227DFB4FA00BD1F73 /* ContentView.swift */,
+				306A1D8F27DFDE66008D90F4 /* PageControler.swift */,
 				30EAE02427DFB52900BD1F73 /* Assets.xcassets */,
 				30EAE02627DFB52900BD1F73 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306A1D9027DFDE66008D90F4 /* PageControler.swift in Sources */,
 				30EAE02327DFB4FA00BD1F73 /* ContentView.swift in Sources */,
 				30EAE02127DFB4FA00BD1F73 /* MEPIX_NEWApp.swift in Sources */,
 			);
