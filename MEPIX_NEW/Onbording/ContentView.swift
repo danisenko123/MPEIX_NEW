@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var selectedIndex: Int = 0
     
     var body: some View {
+        
         VStack{
             TabView(selection: $selectedIndex) {
                 ForEach(0..<content.count) {index in
@@ -23,7 +24,7 @@ struct ContentView: View {
             .onChange(of: selectedIndex, perform: { value in
                 updateProgress()
             })
-            .frame(height: 480)
+            .frame(alignment: .top)
             .padding(.top, 30)
             .clipped()
             
@@ -74,7 +75,7 @@ struct PageContentView: View {
                     .multilineTextAlignment(.center)
                     .lineLimit(3)
                     .padding(10)
-                    .padding(.top, 8)
+                    .padding(.top, 8.0)
             }
         }
     }
