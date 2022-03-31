@@ -13,8 +13,10 @@
 		30C5A62A27E91EC600F9F350 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A62927E91EC600F9F350 /* MapView.swift */; };
 		30C5A62C27E91EF200F9F350 /* BarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A62B27E91EF200F9F350 /* BarsView.swift */; };
 		30C5A62E27E91FDC00F9F350 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A62D27E91FDC00F9F350 /* TabBarView.swift */; };
+		30C5A63027F2154300F9F350 /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A62F27F2154200F9F350 /* OnbordingView.swift */; };
+		30C5A63327F2198000F9F350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A63227F2198000F9F350 /* ContentView.swift */; };
+		30C5A63527F569F600F9F350 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A63427F569F600F9F350 /* SignInView.swift */; };
 		30EAE02127DFB4FA00BD1F73 /* MEPIX_NEWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */; };
-		30EAE02327DFB4FA00BD1F73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE02227DFB4FA00BD1F73 /* ContentView.swift */; };
 		30EAE02527DFB52900BD1F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAE02427DFB52900BD1F73 /* Assets.xcassets */; };
 		30EAE02827DFB52900BD1F73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAE02727DFB52900BD1F73 /* Preview Assets.xcassets */; };
 		30EAE03227DFB52A00BD1F73 /* MEPIX_NEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE03127DFB52A00BD1F73 /* MEPIX_NEWTests.swift */; };
@@ -46,9 +48,11 @@
 		30C5A62927E91EC600F9F350 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		30C5A62B27E91EF200F9F350 /* BarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsView.swift; sourceTree = "<group>"; };
 		30C5A62D27E91FDC00F9F350 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		30C5A62F27F2154200F9F350 /* OnbordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
+		30C5A63227F2198000F9F350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30C5A63427F569F600F9F350 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		30EAE01D27DFB4FA00BD1F73 /* MEPIX_NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEPIX_NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEPIX_NEWApp.swift; sourceTree = "<group>"; };
-		30EAE02227DFB4FA00BD1F73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30EAE02427DFB52900BD1F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30EAE02727DFB52900BD1F73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30EAE02D27DFB52A00BD1F73 /* MEPIX_NEWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEPIX_NEWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +102,9 @@
 		30C5A62727E91DE600F9F350 /* Onbording */ = {
 			isa = PBXGroup;
 			children = (
-				30EAE02227DFB4FA00BD1F73 /* ContentView.swift */,
+				30C5A62F27F2154200F9F350 /* OnbordingView.swift */,
+				30C5A63427F569F600F9F350 /* SignInView.swift */,
+				30C5A63227F2198000F9F350 /* ContentView.swift */,
 			);
 			path = Onbording;
 			sourceTree = "<group>";
@@ -303,9 +309,11 @@
 				30C5A62A27E91EC600F9F350 /* MapView.swift in Sources */,
 				30C5A62E27E91FDC00F9F350 /* TabBarView.swift in Sources */,
 				30C5A62427E9134400F9F350 /* MainView.swift in Sources */,
+				30C5A63527F569F600F9F350 /* SignInView.swift in Sources */,
 				30C5A62627E91D9100F9F350 /* RaspisanieView.swift in Sources */,
+				30C5A63327F2198000F9F350 /* ContentView.swift in Sources */,
+				30C5A63027F2154300F9F350 /* OnbordingView.swift in Sources */,
 				30C5A62C27E91EF200F9F350 /* BarsView.swift in Sources */,
-				30EAE02327DFB4FA00BD1F73 /* ContentView.swift in Sources */,
 				30EAE02127DFB4FA00BD1F73 /* MEPIX_NEWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
