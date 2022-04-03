@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MEPIX_NEWApp: App {
+    
     var body: some Scene {
         WindowGroup {
+            
             ContentView()
+            
         }
     }
 }

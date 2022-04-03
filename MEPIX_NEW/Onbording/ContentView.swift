@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage("firstStart") var firstStart = true
+    
     var body: some View {
-        OnbordingView()
+        if firstStart {
+            OnbordingView()
+        } else {
+            TabBarView()
+        }
     }
 }
 

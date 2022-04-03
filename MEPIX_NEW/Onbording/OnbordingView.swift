@@ -12,6 +12,8 @@ struct OnbordingView: View {
     @State private var progress: CGFloat = 0
     @State private var selectedIndex: Int = 0
     
+    @AppStorage("firstStart") var firstStart = true
+
     var body: some View {
         
         VStack{
@@ -31,6 +33,12 @@ struct OnbordingView: View {
             Spacer(minLength: 15)
             
             Button(action: {
+                
+                if selectedIndex == content.count - 1 {
+                    withAnimation {
+                        firstStart = false
+                    }
+                }
                 if selectedIndex < content.count - 1 {
                     withAnimation{
                         selectedIndex += 1
@@ -41,6 +49,7 @@ struct OnbordingView: View {
             })
                 .padding(.bottom, 30)
         }
+        
         .onAppear() {
             updateProgress()
         }
