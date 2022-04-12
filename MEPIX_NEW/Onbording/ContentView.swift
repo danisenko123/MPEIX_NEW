@@ -10,13 +10,20 @@ import SwiftUI
 struct ContentView: View {
     
     @AppStorage("firstStart") var firstStart = true
+    @AppStorage ("MyGroup") var myGroup = ""
     
     var body: some View {
         if firstStart {
             OnbordingView()
         } else {
-            TabBarView()
+            if myGroup == ""{
+                SignInView()
+            } else{
+                TabBarView()
+            }
         }
+        
+        
     }
 }
 
