@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @State var group = [Group]()
     var body: some View {
-
-        Text("Главный Экран")
-        
+        List(group) { group in
+            Text("\(group.name)")
+        }
     }
+        .onAppear() {
+            Api().loadData { (group) in
+                self.group = group
+            }
+        }.navigationTitle("Book List")
 }
 
 struct MainView_Previews: PreviewProvider {
@@ -20,3 +27,4 @@ struct MainView_Previews: PreviewProvider {
         MainView()
     }
 }
+

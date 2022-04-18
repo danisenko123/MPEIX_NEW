@@ -17,6 +17,7 @@
 		30C5A63327F2198000F9F350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A63227F2198000F9F350 /* ContentView.swift */; };
 		30C5A63527F569F600F9F350 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A63427F569F600F9F350 /* SignInView.swift */; };
 		30C5A637280570DB00F9F350 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A636280570DA00F9F350 /* GroupModel.swift */; };
+		30C5A642280DC3B000F9F350 /* NetworgMedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C5A641280DC3AF00F9F350 /* NetworgMedger.swift */; };
 		30EAE02127DFB4FA00BD1F73 /* MEPIX_NEWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */; };
 		30EAE02527DFB52900BD1F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAE02427DFB52900BD1F73 /* Assets.xcassets */; };
 		30EAE02827DFB52900BD1F73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAE02727DFB52900BD1F73 /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		30C5A63227F2198000F9F350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30C5A63427F569F600F9F350 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		30C5A636280570DA00F9F350 /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		30C5A641280DC3AF00F9F350 /* NetworgMedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworgMedger.swift; sourceTree = "<group>"; };
 		30EAE01D27DFB4FA00BD1F73 /* MEPIX_NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEPIX_NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EAE02027DFB4FA00BD1F73 /* MEPIX_NEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEPIX_NEWApp.swift; sourceTree = "<group>"; };
 		30EAE02427DFB52900BD1F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				306A1D8F27DFDE66008D90F4 /* PageControler.swift */,
 				30C5A636280570DA00F9F350 /* GroupModel.swift */,
+				30C5A641280DC3AF00F9F350 /* NetworgMedger.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C5A642280DC3B000F9F350 /* NetworgMedger.swift in Sources */,
 				30C5A637280570DB00F9F350 /* GroupModel.swift in Sources */,
 				306A1D9027DFDE66008D90F4 /* PageControler.swift in Sources */,
 				30C5A62A27E91EC600F9F350 /* MapView.swift in Sources */,
