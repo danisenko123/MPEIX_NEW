@@ -16,7 +16,7 @@ struct ContentView: View {
         if firstStart {
             OnbordingView()
         } else {
-            if myGroup == ""{
+            if myGroup != ""{
                 SignInView()
             } else{
                 TabBarView()

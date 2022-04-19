@@ -1,42 +1,50 @@
+
+
+
 import Foundation
 
+struct Group: Codable {
 
-struct Group: Codable{
-    var name: String
-    var id: String
-    var type: String
-    var weeks: [Week]
-    
+    var weeks: [Weeks]?
+    var id: String?
+    var type: String?
+    var name: String?
+
 }
 
-struct Week: Codable {
-    var weekOfYear: Int
-    var weekOfSemester: Int
-    var firstDayOfWeek: String
-    var days: [Day]
+struct Weeks: Codable {
+
+    var days: [Days]?
+    var weekOfSemester: Int?
+    var weekOfYear: Int?
+    var firstDayOfWeek: String?
+
 }
 
-struct Day: Codable {
-    var dayOfWeek: Int
-    var date: String
-    var classes: [Class]
+struct Days: Codable {
+
+    var date: String?
+    var dayOfWeek: Int?
+    var classes: [Classes]?
+
 }
 
-struct Class: Codable {
-    var name: String
-    var typ: String
-    var place: String
-    var groups: String
-    var person: String
-    var time: Time
-    var number: Int
-    var rawType: String
+struct Classes: Codable {
+
+    var name: String?
+    var rawType: String?
+    var person: String?
+    var place: String?
+    var time: Time?
+    var type: String?
+    var groups: String?
+    var number: Int?
+
 }
 
 struct Time: Codable {
-    var start: String
-    var end: String
+
+    var end: String?
+    var start: String?
+
 }
-
-
-
